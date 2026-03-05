@@ -1,0 +1,89 @@
+# ----------------------
+# Python cache files
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------
+# Jupyter Notebook
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/
+
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# Build / Distribution
+# ----------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------
+# Chroma / Vector DB
+# ----------------------
+chroma/
+chromadb/
+*.sqlite3
+*.db
+
+# ----------------------
+# FAISS Index Files
+# ----------------------
+*.faiss
+*.index
+
+# ----------------------
+# Model files
+# ----------------------
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+*.safetensors
+
+# ----------------------
+# Large data files
+# ----------------------
+data/
+datasets/
+*.csv
+*.parquet
+
+# ----------------------
+# Temporary files
+# ----------------------
+*.tmp
+*.bak
+*.swp
