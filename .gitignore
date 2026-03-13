@@ -87,3 +87,7 @@ datasets/
 *.tmp
 *.bak
 *.swp
+
+# MLflow
+mlruns/
+mlflow.db
